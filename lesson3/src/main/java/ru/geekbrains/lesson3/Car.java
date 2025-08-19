@@ -43,6 +43,14 @@ public abstract class Car {
     public int getWheelsCount() {
         return wheelsCount;
     }
+// Тип топлива
+    public FuelType getFuelType() {
+        return fuelType;
+    }
+
+    public void setFuelType(FuelType fuelType) {
+        this.fuelType = fuelType;
+    }
 
     //endregion
 

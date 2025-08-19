@@ -13,6 +13,7 @@ public class Harvester extends Car implements Fueling, Wiping {
     }
 
     public void setRefuelingStation(Refueling refuelingStation) {
+
         this.refueling = refuelingStation;
     }
 
@@ -28,12 +29,12 @@ public class Harvester extends Car implements Fueling, Wiping {
 //движение:
     @Override
     public void movement() {
-
+        System.out.println("Подметальная машина двигается по улице.");
     }
 //обслуживание:
     @Override
     public void maintenance() {
-
+        System.out.println("Обслуживание подметальной машины...");
     }
 //Переключение передач:
     @Override
@@ -61,17 +62,17 @@ public class Harvester extends Car implements Fueling, Wiping {
 //стереть зеркала:
     @Override
     public void wipMirrors() {
-
+        System.out.println("Протираем зеркала подметальной машины...");
     }
 //протирать лобовое стекло:
     @Override
     public void wipWindshield() {
-
+        System.out.println("Протираем лобовое стекло подметальной машины...");
     }
 //протереть фары:
     @Override
     public void wipHeadlights() {
-
+        System.out.println("Протираем фары подметальной машины...");
     }
 
 

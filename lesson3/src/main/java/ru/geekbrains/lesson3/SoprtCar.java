@@ -14,12 +14,12 @@ public class SoprtCar extends Car {
 
     @Override
     public void movement() {
-
+        System.out.println("Спортивный автомобиль в движении!");
     }
 
     @Override
     public void maintenance() {
-
+        System.out.println("Обслуживание спортивного автомобиля...");
     }
 
     @Override
@@ -35,5 +35,20 @@ public class SoprtCar extends Car {
     @Override
     public boolean switchWipers() {
         return false;
+    }
+
+    @Override
+    public void wipMirrors() {
+        System.out.println("Протираем зеркала спортивного автомобиля...");
+    }
+
+    @Override
+    public void wipWindshield() {
+        System.out.println("Протираем лобовое стекло спортивного автомобиля...");
+    }
+
+    @Override
+    public void wipHeadlights() {
+        System.out.println("Протираем фары спортивного автомобиля...");
     }
 }

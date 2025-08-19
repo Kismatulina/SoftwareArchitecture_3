@@ -4,5 +4,7 @@ public enum CarType {
     Sedan,
     Hatchback,
     Pickup,
-    Sport
+    Sport,
+    CarWash,
+    SportCar
 }
